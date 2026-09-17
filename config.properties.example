@@ -1,0 +1,13 @@
+# Copie este arquivo para "config.properties" (na mesma pasta do .jar) e
+# preencha com os valores reais. O arquivo config.properties NAO deve ser
+# versionado - ele ja esta listado no .gitignore.
+#
+# Alternativamente, essas mesmas configuracoes podem ser fornecidas via
+# variaveis de ambiente: DESTRAVAPDV_SSH_USER, DESTRAVAPDV_SSH_PASSWORD,
+# DESTRAVAPDV_LOGIN_PINS (variaveis de ambiente tem prioridade sobre o arquivo).
+
+ssh.user=root
+ssh.password=CHANGE_ME
+
+# Lista de PINs validos para o login do aplicativo, separados por virgula.
+login.pins=CHANGE_ME_PIN_1,CHANGE_ME_PIN_2
